@@ -79,7 +79,7 @@ body {
 /* Desktop and Large */
 @media (min-width: 1201px) {
     .preview {
-        width: 22%;
+        width: 20%;
     }
 }
 
