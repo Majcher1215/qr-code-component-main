@@ -55,5 +55,34 @@ body {
     font-size: 1.1em;
 }
 
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .preview {
+        width: 70%;
+    }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .preview {
+        width: 50%;
+    }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .preview {
+        width: 30%;
+    }
+}
+
+/* Desktop and Large */
+@media (min-width: 1201px) {
+    .preview {
+        width: 22%;
+    }
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
